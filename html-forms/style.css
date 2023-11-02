@@ -1,0 +1,30 @@
+body {
+ 
+  padding: 10px;
+}
+
+input, textarea {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  padding-bottom: 125px;
+}
+
+button{
+  margin-top: 20px;
+}
+
+@media all and (min-width: 600px) {
+  body {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+  }
+  input, textarea{
+    width: 800px;
+  }
+}
